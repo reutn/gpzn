@@ -8,7 +8,9 @@ img {
 .site-header {
   position: relative;
 }
-
+#contador{
+visibility: hidden;
+}
 .site-header .mdl-layout__header-row {
   padding: 0;
   -ms-flex-pack: center;
