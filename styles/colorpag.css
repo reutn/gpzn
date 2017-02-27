@@ -3832,9 +3832,10 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
   background: url("../img/header.jpg") center/cover;
     color:rgb(66, 66, 66);
     box-shadow:0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
-    transition-duration:.2s;
+    transition-duration:.3s;
+
     transition-timing-function:cubic-bezier(.4, 0, .2, 1);
-    transition-property:max-height, box-shadow
+    transition-property: max-height, box-shadow;
 }
 @media screen and (max-width:1024px) {
     .mdl-layout__header {
@@ -3872,7 +3873,9 @@ fieldset[disabled] .mdl-checkbox .mdl-checkbox__ripple-container .mdl-ripple, .m
     display:none
 }
 .mdl-layout__header.is-compact {
-    max-height:64px
+
+    max-height:64px;
+      background: url("../img/header01.jpg") center/cover;
 }
 @media screen and (max-width:1024px) {
     .mdl-layout__header.is-compact {

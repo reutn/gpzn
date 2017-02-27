@@ -11,6 +11,8 @@ img {
 #contador{
 visibility: hidden;
 }
+
+
 .site-header .mdl-layout__header-row {
   padding: 0;
   -ms-flex-pack: center;
@@ -212,8 +214,30 @@ img.article-image {
   color: #fff;
   font-size: 14px;
   font-weight: 500;
-}
 
+}
+#fotoNombre{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.nombreencima{
+  height: 56px;
+  width: 334px;
+  background-image: url("../img/bannerNombre.png");
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  z-index: 4000;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#nom2{
+  background-image: url("../img/bannerNombre2.png");
+  
+}
 .form-contact .mdl-textfield {
   width: 100%;
 }
