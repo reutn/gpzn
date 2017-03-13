@@ -8,9 +8,7 @@ img {
 .site-header {
   position: relative;
 }
-#contador{
-visibility: visible;
-}
+
 
 
 .site-header .mdl-layout__header-row {
@@ -119,10 +117,12 @@ visibility: visible;
 
 }
 #contador{
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   text-align: center;
   font-stretch: extra-expanded;
+  color: #ef9c00;
+  line-height: 1.6;
 }
 .event-card {
   background: #ef9c00;
